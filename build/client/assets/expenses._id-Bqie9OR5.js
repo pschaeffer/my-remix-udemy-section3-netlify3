@@ -1,0 +1,1 @@
+import{d as o,j as a}from"./components-DZCVqqbL.js";import{M as s,E as r}from"./Modal-BZwDsXeZ.js";function d(){const e=o();function t(){e("..")}return a.jsx(s,{onClose:t,children:a.jsx(r,{})})}function m({params:e,location:t,data:n,parentsData:i}){return[{title:n.title,description:"Update expense."}]}export{d as default,m as meta};

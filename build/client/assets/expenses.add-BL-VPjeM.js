@@ -1,0 +1,1 @@
+import{d as a,j as e}from"./components-DZCVqqbL.js";import{M as n,E as t}from"./Modal-BZwDsXeZ.js";function d(){const s=a();function o(){s("..")}return e.jsx(n,{onClose:o,children:e.jsx(t,{})})}export{d as default};

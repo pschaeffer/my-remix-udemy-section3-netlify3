@@ -1,0 +1,20 @@
+{
+	"siteId": "00b32a52-de3d-433d-88e0-717e13789116",
+	"geolocation": {
+		"data": {
+			"city": "Houston",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "TX",
+				"name": "Texas"
+			},
+			"timezone": "America/Chicago",
+			"latitude": 29.8203,
+			"longitude": -95.4256
+		},
+		"timestamp": 1712169426569
+	}
+}
