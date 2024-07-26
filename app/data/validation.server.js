@@ -40,6 +40,8 @@ function isValidPassword(value) {
 }
 
 export function validateCredentials(input) {
+  console.log('In valiiation.seerver.js validateCredentials');
+  console.log(input);
   let validationErrors = {};
 
   if (!isValidEmail(input.email)) {
@@ -49,7 +51,7 @@ export function validateCredentials(input) {
   if (!isValidPassword(input.password)) {
     validationErrors.password = 'Invalid password. Must be at least 7 characters long.'
   }
-
+  console.log('validationErrors: ', validationErrors);
   if (Object.keys(validationErrors).length > 0) {
     throw validationErrors;
   }
